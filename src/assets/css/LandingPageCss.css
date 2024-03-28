@@ -1,0 +1,21 @@
+
+.Pocetna{
+    height: 100vh ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoPocetna{
+    width: 200px;
+    height: 200px;
+}
+
+.img-container {
+    opacity: 0; 
+    transition: opacity 2s; 
+  }
+  
+  .img-loaded {
+    opacity: 1;
+  }

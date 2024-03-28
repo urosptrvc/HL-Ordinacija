@@ -1,0 +1,43 @@
+.Prijem{
+    height: 100vh;
+}
+
+.logoPrijem{
+    width: 200px;
+}
+
+.Prijem1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Prijem2{
+    height: 100vh;
+
+}
+
+.Prijem1Row{
+    width: 90%;
+}
+
+.Prijem2Row{
+    width: 90%;
+}
+
+.Alertovi{
+    position: absolute;
+    top: 20px;
+    width: 35%;
+    padding: 0px !important;
+}
+
+.Alertovi2{
+    position: absolute;
+    top: 20px;
+    width: 35%;
+    right: 0px;
+    padding: 0px !important;
+}
+
+

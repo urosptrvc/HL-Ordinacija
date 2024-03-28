@@ -1,0 +1,21 @@
+.Izbor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.Dugme{
+    width: 300px !important;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.Izbor {
+    transition: opacity 0.5s ease-in-out; /* Prilagodite trajanje i stil prelaza po potrebi */
+    opacity: 0; /* Početna vrednost */
+}
+
+.Izbor.exiting {
+    opacity: 1; /* Krajnja vrednost */
+}

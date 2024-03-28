@@ -1,0 +1,23 @@
+
+.centriraj{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Prijem1 .UnosPacijenta{
+    border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    
+    -webkit-box-shadow: 0px 0px 19px -4px rgba(0,0,0,0.67);
+    -moz-box-shadow: 0px 0px 19px -4px rgba(0,0,0,0.67);
+    box-shadow: 0px 0px 19px -4px rgba(0,0,0,0.67);
+
+    background-color: white;
+}
+
+.Prijem1 .UnosPacijenta form{
+    padding: 2%;
+}
