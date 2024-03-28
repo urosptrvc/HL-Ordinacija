@@ -200,11 +200,7 @@ function Prijem() {
                 </div>
             </div>
             
-            <div>
-                <p>
-                    aa
-                </p>
-            </div>
+
             
         </>
     );
