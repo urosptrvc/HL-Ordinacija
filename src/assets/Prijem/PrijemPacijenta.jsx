@@ -83,9 +83,15 @@ function PrijemPacijenta ({ handleObjekat, handleObjekatCekanje , pacijentData ,
             console.log('Kreiran objekat:', noviObjekat);
             handleObjekat(noviObjekat);
         }
- 
 
-        // Možete uraditi nešto sa novim objektom ovde, kao što je slanje na server ili ažuriranje stanja aplikacije.
+        unos.imePrezime = '';
+        unos.brojLK = '';
+        unos.brojTelefona = '';
+        unos.Adresa = '';
+        unos.datumRodjenja = '';
+        unos.pol = '';
+        unos.izabraniLekar = '';
+ 
       };
 
 
@@ -129,6 +135,14 @@ function PrijemPacijenta ({ handleObjekat, handleObjekatCekanje , pacijentData ,
             console.log('Kreiran objekat:', noviObjekat);
             handleObjekatCekanje(noviObjekat);
         }
+
+        unos.imePrezime = '';
+        unos.brojLK = '';
+        unos.brojTelefona = '';
+        unos.Adresa = '';
+        unos.datumRodjenja = '';
+        unos.pol = '';
+        unos.izabraniLekar = '';
  
 
         // Možete uraditi nešto sa novim objektom ovde, kao što je slanje na server ili ažuriranje stanja aplikacije.
@@ -209,7 +223,7 @@ function PrijemPacijenta ({ handleObjekat, handleObjekatCekanje , pacijentData ,
                         Sačuvaj i upiši pacijenta
                     </Button>
                     <Button variant="success" type="button" onClick={unosCekanje}>
-                        Upiši
+                        Upiši u listu čekanja
                     </Button>
                 </div>
             </Form>

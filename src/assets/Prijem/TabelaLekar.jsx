@@ -104,7 +104,8 @@ function TabelaLekar ({osvezivac, busenProvera}) {
 
         <div className="row">
             <div className="col-6">
-                <p className='lead'><b>Lista čekanja Lekar</b></p>                         
+                 
+                <p className='lead listacekanja'><b>Lista čekanja Lekar</b></p>                      
             </div>
             <div className="col-6 d-flex justify-content-end mb-3">
                 <Button variant="danger" type="submit" onClick={obrisiPacijenta}>
